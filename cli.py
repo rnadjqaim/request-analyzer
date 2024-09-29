@@ -13,4 +13,11 @@ def analyze_logs():
 
 def main():
     parser = argparse.ArgumentParser(description="Analyze CloudWatch logs using GoAccess.")
-    parser.add
+    parser.add_argument('--analyze', action='store_true', help="Analyze logs and generate a report")
+    args = parser.parse_args()
+
+    if args.analyze:
+        analyze_logs()
+
+if __name__ == "__main__":
+    main()
