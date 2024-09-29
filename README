@@ -1,0 +1,10 @@
+# rnad-requests
+
+`rnad-requests` is a CLI tool for analyzing AWS CloudWatch logs using GoAccess for real-time log visualization.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rnadjqaim/rnad-requests.git
+   cd rnad-requests
